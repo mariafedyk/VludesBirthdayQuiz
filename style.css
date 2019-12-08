@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo&display=swap');
+body{
+	background-color: #faa;
+	font-family: "Swanky and Moo Moo";
+}
+.background{
+	width: 100%;
+	height: 706px;
+	background-image: url(img/bgr.png);
+	background-repeat: repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.inside{
+	width: 700px;
+    background-color: cornsilk;
+    padding: 28px 0;
+    border-radius: 114px;
+    border: 10px solid;
+	border-color: rgb(199, 21, 133);
+	margin: auto;
+}
+h1{
+	text-align: center;
+	font-size: 45px;
+	color: mediumvioletred;
+	margin: 0;
+	line-height: 35px;
+}
+p{
+	text-align: center;
+	font-size: 25px;
+	color: #872e66;
+}
+h1 + img{
+	display: block;
+    width: 125px;
+    margin: auto;
+}
+span{
+	font-weight: bold;
+    font-size: 30px;
+    display: block;
+    color: #872e66;
+}
+.li{
+	display: flex;
+	margin:auto;
+	width: 492px;
+}
+.li img{
+	display: block;
+	width: 50px;
+	padding-right: 15px;
+}
+a{
+	display: block;
+	margin:auto;
+	width: 200px;
+	height: 65px;
+    border-radius: 30px;
+	text-align: center;
+	border: 4px solid;
+	font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #872e66;
+	border-color: rgb(199, 21, 133);
+	background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(251,251,251,1) 19%, rgba(199,21,133,1) 100%);
+}
+a:hover{
+	background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(251,251,251,1) 19%, rgba(199,21,133,1) 100%);
+}
+.gifs{
+	width: 310px;
+    height: 310px;
+    position: absolute;
+}
+.second{
+    bottom: 28px;
+    right: 319px;
+}
+.first{
+    left: 295px;
+}
+.one{
+    position: absolute;
+    bottom: 0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    left: 99px;
+    width: 500px;
+}
+.two{
+	position: absolute;
+    top: 0;
+    right: 246px;
+    width: 280px;
+    transform: rotate(180deg);
+}
